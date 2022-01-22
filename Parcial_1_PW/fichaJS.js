@@ -2,15 +2,15 @@ $(document).ready(function () {
     var queryString = window.location.search;
     var urlParams = new URLSearchParams(queryString);
 
-    var anuncioParam = urlParams.get('nombre');
-    $('#h2ficha').prepend(anuncioParam);
+    var anuncioParam = urlParams.get('name');
+    $('#NameData').prepend(anuncioParam);
     anuncioParam = urlParams.get('email');
-    $('#emailficha').prepend(anuncioParam);
-    anuncioParam = urlParams.get('telefono');
-    $('#numeroficha').prepend(anuncioParam);
-    anuncioParam = urlParams.get('gusto');
-    $('#gustoficha').prepend(anuncioParam);
-    anuncioParam = urlParams.get('porcentaje');
-    $('#porcentajeficha').prepend(anuncioParam);
+    $('#EmailData').prepend(anuncioParam);
+    anuncioParam = urlParams.get('number');
+    $('#NumberData').prepend(anuncioParam);
+    anuncioParam = urlParams.get('likes');
+    $('#LikeData').prepend(anuncioParam);
+    anuncioParam = urlParams.get('percentage');
+    $('#PercentageData').prepend(anuncioParam);
     
 });
