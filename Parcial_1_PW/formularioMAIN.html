@@ -18,7 +18,7 @@
     
     <title>Formulario</title>
     <link rel="stylesheet" href="formularioCSS.css" />
-    <script src='formularioJS.js'></script>
+    
    
 </head>
 <body>
@@ -36,32 +36,24 @@
             <form>
 
             <h3>Formulario de afiliación</h3>
-            <input class="Name" type="text" placeholder="Nombre Completo"><br>
-            <input class="Email" type="email" placeholder="Email"><br>
-            <input class="Number" type="text" placeholder="Número"><br>
-            <input class="Likes" type="text"><button class="buttomLikes"> Gustos </button><br>
+            <input class="Name" name="name" type="text" placeholder="Nombre Completo"><br>
+            <input class="Email" name="email" type="email" placeholder="Email"><br>
+            <input class="Number" name="number" type="text" placeholder="Número"><br>
+            <input class="Likes" name="likes" id='likes' type="text"><button id="btlikes" class="buttonLikes" type="button"> Gustos </button><br>
 
-            <div class="formularioTable">
+            <div class="formularioTable" id="formtable">
 
                 <div class="flag">  </div>
 
                  <div class="tablebox">
 
-                    <table class="tablereal">
+                    <table class="tablereal" id="tableLikes">
 
                         <tr>
 
                             <th>Gustos</th>
                             <th>%</th>
                             <th>Edit</th>
-
-                        </tr>
-
-                        <tr>
-
-                            <td> gatos </td>
-                            <td> 0</td>
-                            <td> Editar</td>
 
                         </tr>
 
@@ -76,4 +68,10 @@
             </form>
         </div>
 
-</body></html>
+<!-- Scripts -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"> </script>
+<script src='formularioJS.js'></script>
+
+</body>
+</html>

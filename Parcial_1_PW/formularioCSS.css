@@ -125,7 +125,7 @@ body{
 
 }
 
-.buttomLikes{
+.buttonLikes{
 
     position: relative;
     top: -92px;
@@ -142,7 +142,7 @@ body{
     cursor: pointer;
 }
 
-.buttomLikes:hover{
+.buttonLikes:hover{
 
     background-color: limegreen;
     color: white;
@@ -204,9 +204,95 @@ tr, td, th{
 
     border: 1px solid black;
     border-collapse: collapse;
+ 
+}
+
+/* Tercera Parte: JS */
+
+.buttonedit{
+    border: none;
+    background: none;
+    color: blue;
+}
+
+.buttonedit:hover{
+
+    background-color: blue;
+    border-radius: 5px;
+    color: white;
 
 }
 
+#accept{
+
+    width: 100px;
+    height: 50px;
+
+    border-color: gray;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    background: none;
+    color: gray;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+#accept:hover{
+
+    background-color: gray;
+    color: white;
+
+}
+
+#cancel{
+
+    width: 100px;
+    height: 50px;
+
+    border-color: rgb(216, 0, 0);
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    background: none;
+    color: rgb(216, 0, 0);
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+#cancel:hover{
+
+    background-color: rgb(216, 0, 0);
+    color: white;
+
+}
+
+#boxLikes{
+
+    border-style: solid;
+    border-color: lightgray;
+    border-radius: 10px;
+    border-width: 1px;
+    width: 100px;
+    height: 30px;
+    padding-left: 15px;
+    font-size: 20px;
+
+}
+
+#Percentage{
+
+        border-style: solid;
+        border-color: lightgray;
+        border-radius: 10px;
+        border-width: 1px;
+        width: 100px;
+        height: 30px;
+        padding-left: 15px;
+        font-size: 20px;
+}
 
 /* Estilos generales */ 
 
