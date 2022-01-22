@@ -1,0 +1,223 @@
+/*  Base  */
+
+*{
+
+    margin: 10px;
+    padding: 0%;
+}
+
+body{
+
+    background-color: #e8ecef;
+    margin-top: 50px;
+}
+
+
+/*  Titulo  */
+
+.Title{
+    
+    position: relative;
+    margin: auto;
+    color: #444444;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    font-size: 50px;
+    
+
+}
+
+/*  Primera parte: Formulario  */
+
+.formularioMain{
+    border-style: solid;
+    border-color: lightgray;
+    border-width: 1px;
+    text-align: center;
+    background-color: white;
+    margin: auto;
+    width: 800px;
+    color: #747474;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    box-shadow: 0 2px 10px rgb(0 0 0 / 0.15);
+
+}
+
+.Name{
+
+    position: relative;
+    border-style: solid;
+    border-color: lightgray;
+    border-radius: 10px;
+    border-width: 1px;
+    width: 700px;
+    height: 70px;
+    padding-left: 15px;
+    font-size: 30px;
+}
+
+.Name::placeholder{
+
+    background-image: url(img/user.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: 655px center;
+}
+
+.Email{
+
+    position: relative;
+    border-style: solid;
+    border-color: lightgray;
+    border-radius: 10px;
+    border-width: 1px;
+    width: 700px;
+    height: 70px;
+    padding-left: 15px;
+    font-size: 30px;
+}
+
+.Email::placeholder{
+
+    background-image: url(img/email.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: 655px center;
+
+}
+
+.Number{
+
+    position: relative;
+    border-style: solid;
+    border-color: lightgray;
+    border-radius: 10px;
+    border-width: 1px;
+    width: 700px;
+    height: 70px;
+    padding-left: 15px;
+    font-size: 30px;
+}
+
+.Number::placeholder{
+
+    background-image: url(img/phone.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: 655px center;
+
+}
+
+.Likes{
+
+    position: relative;
+    border-style: solid;
+    border-color: lightgray;
+    border-radius: 10px;
+    border-width: 1px;
+    width: 700px;
+    height: 70px;
+    padding-left: 15px;
+    font-size: 30px;
+    right:9px
+
+}
+
+.buttomLikes{
+
+    position: relative;
+    top: -92px;
+    right: -300px;
+    height: 72px;
+    width: 120px;
+    border-style: solid;
+    border-color: limegreen;
+    border-radius: 0px 10px 10px 0px;
+    border-width: 1px;
+    font-size: 25px;
+    color: limegreen;
+    background-color: white;
+    cursor: pointer;
+}
+
+.buttomLikes:hover{
+
+    background-color: limegreen;
+    color: white;
+
+}
+
+/* Segunda Parte: Tabla */ 
+
+.formularioTable{
+    
+    position: relative;
+    border-style: solid;
+    border-color: lightgray;
+    border-width: 1px;
+    border-radius: 5px;
+    background-color: white;
+    margin: auto;
+    width: 720px;
+    left: -6px;
+    top: -50px;
+    color: #747474;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    font-size: 25px;
+    box-shadow: 0 2px 10px rgb(0 0 0 / 0.15);
+
+}
+
+.flag{
+
+    position: relative;
+    background-color: white;
+    border-radius: 5px;
+    margin: auto;
+    width: 700px;
+    height: 100px;
+    top: 10px;
+    padding-bottom: 10px;
+    
+    background-color: lightgreen;
+    background-image: url(img/flag.png);
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-position: center;
+}
+
+.tablereal{
+    margin-top: 40px;
+    position: relative;
+    text-align: center;
+    padding-top: 40px;
+    width: 500px;
+    left: 65px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+tr, td, th{
+
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
+
+
+/* Estilos generales */ 
+
+::placeholder{
+
+    color: gray;
+
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+}
